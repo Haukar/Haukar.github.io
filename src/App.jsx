@@ -19,7 +19,7 @@ function App() {
   const { t, i18n } = useTranslation();
 
   const toggleLang = () => {
-    const newLang = i18n.language === "en" ? "nl" : "en";
+    const newLang = i18n.language === "nl" ? "en" : "nl";
     i18n.changeLanguage(newLang);
   };
 
@@ -49,7 +49,7 @@ function App() {
           onClick={toggleLang}
           className="absolute top-6 right-6 bg-[#9B4D96] hover:bg-[#7A3C7B] transition-colors text-white px-5 py-2 rounded-full font-semibold shadow-md"
         >
-          {i18n.language === "en" ? "Nederlands" : "English"}
+          {i18n.language === "nl" ? "English" : "Nederlands"}
         </button>
       </section>
 
