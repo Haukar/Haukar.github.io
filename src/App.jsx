@@ -14,6 +14,7 @@ import Html from "./assets/Html.png";
 import Css from "./assets/Css.png";
 import Tailwind from "./assets/Tailwind.png";
 import Portfolio from "./assets/Portfolio.png";
+import Solana from "./assets/Solana.png";
 
 function App() {
   const { t, i18n } = useTranslation();
@@ -120,6 +121,29 @@ function App() {
             </a>
           </div>
           {/* Other project cards */}
+          <div className="p-6 border border-[#9B4D96] rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300">
+            <div className="flex items-center mb-4">
+              <h3 className="text-xl font-bold text-[#9B4D96]">
+                Solana Webscraper
+              </h3>
+            </div>
+            <img
+                src={Solana}
+                alt="Portfolio Logo"
+                className="w-100 h-60 mr-4"
+              />
+            <p className="text-[#2C2C2C] text-sm mb-4">
+              {t("solanaWebText")}
+            </p>
+            <a
+              href="https://github.com/Haukar/SolanaWebscraper"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block text-[#9B4D96] hover:text-[#6B8E23] font-semibold"
+            >
+              {t("viewProject")}
+            </a>
+          </div>
         </div>
       </section>
     </div>

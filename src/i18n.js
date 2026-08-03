@@ -11,6 +11,7 @@ const resources = {
     knowledge: "Technical Skill Set",
     projects: "My Projects",
     portfolioText: "A personal portfolio website showcasing my skills and projects.",
+    solanaWebText: "A web scraper for analyzing Solana blockchain data.",
     viewProject: "View Project"
   } },
   nl: { translation: {
@@ -23,6 +24,7 @@ const resources = {
     knowledge: "Technische Vaardigheden",
     projects: "Mijn Projecten",
     portfolioText: "Mijn persoonlijke portfoliowebsite waarin ik mijn vaardigheden en gerealiseerde projecten presenteer.",
+    solanaWebText: "Een webscraper voor het analyseren van Solana blockchain data.",
     viewProject: "Bekijk Project" 
   } },
 };
