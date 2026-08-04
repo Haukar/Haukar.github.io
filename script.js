@@ -2,33 +2,17 @@ const projects = [
 
 {
 title:"Portfolio Website",
-language:"Javascript, TailwindCSS, Html",
-description:"Een portfolio website gebouwd met Flask",
-github:"https://github.com/jouwnaam/flask-portfolio"
+language:"Javascript, Tailwind CSS, Html",
+description:"Een portfolio website gebouwd met JavaScript, Tailwind CSS en HTML",
+github:"https://github.com/Haukar/Haukar.github.io"
 },
 
 
 {
-title:"Java Applicatie",
-language:"Java",
-description:"Desktop applicatie met Java",
-github:"https://github.com/jouwnaam/java-project"
-},
-
-
-{
-title:"PHP Website",
-language:"PHP",
-description:"Dynamische website met PHP",
-github:"https://github.com/jouwnaam/php-project"
-},
-
-
-{
-title:"JavaScript App",
-language:"JavaScript",
-description:"Interactieve webapplicatie",
-github:"https://github.com/jouwnaam/javascript-project"
+title:"Solana Webscraper",
+language:"Python",
+description:"Een modulaire, uitbreidbare marktinformatie-scraper voor Solana (SOL).",
+github:"https://github.com/Haukar/SolanaWebscraper"
 }
 
 ];
